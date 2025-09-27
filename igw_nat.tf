@@ -5,14 +5,3 @@ resource "aws_internet_gateway" "Project-IGW" {
     Name = "${local.name}-Internet-Gateway"
   }
 }
-
-/*
-resource "aws_nat_gateway" "Project-NAT" {
-  
-  subnet_id = ""
-
-  tags = {
-    Name = "${local.name}-NAT-Gateway"
-  }
-}
-*/
